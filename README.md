@@ -14,8 +14,8 @@ npm install
 
 You must configure credentials before using any of the supported platforms:
 
-* **Amazon AWS Lambda** can be configured by following this <a href='https://serverless.com/framework/docs/providers/aws/guide/credentials/'>guide</a> on the Serverless Framework website.
-* **Apache OpenWhisk** can be configured by following this <a href='https://serverless.com/framework/docs/providers/openwhisk/guide/credentials/'>guide</a> on the Serverless Framework website.
+* **Amazon AWS Lambda** can be configured by following this  'https://serverless.com/framework/docs/providers/aws/guide/credentials/' guide  on the Serverless Framework website.
+* **Apache OpenWhisk** can be configured by following this 'https://serverless.com/framework/docs/providers/openwhisk/guide/credentials/' guide on the Serverless Framework website.
 
 NOTE: In server.js kindly add your aws management console details in the line 175 and 177 for your deployment. Follow the links above for configuring your setup. 
 
