@@ -6,4 +6,4 @@ provider:
     region: us-east-1
     memorySize: 512
 functions:
-    test-iigvlp: {handler: handler.test, events: [{http: {path: /test, method: post, private: false}}]}
+    test-tgdzrd: {handler: handler.test, events: [{http: {path: /test, method: post, private: false}}]}
