@@ -172,9 +172,9 @@ module.exports.init = function (next)  {
 });
   if(config.provider.name==="amazon")
   {
-    config.provider.credentials = "sls config credentials -o -p aws --key AKIAI4HCJV4BKZEWCTIQ --secret 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";
+    config.provider.credentials = "sls config credentials -o -p aws --key  --secret ";
   }else if(config.provider.name==="ibm"){
-     config.provider.credentials = "sls config credentials --provider openwhisk --apihost openwhisk.eu-gb.bluemix.net --auth shobhit.mishra@campus.tu-berlin.de:W@rlocks123";
+     config.provider.credentials = "sls config credentials --provider openwhisk --apihost XXXXXX --auth username:password";
   } else {
     console.log("Incorrect Provider name. Choose between amazon or ibm");
   }
