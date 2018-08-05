@@ -31,4 +31,4 @@ Later to run the performance test you can run the following command
 npm start amazon
 ```
 
-this will start the tests and will execute the tests in hand giving results
+this will start the tests and will execute the tests and provide results
