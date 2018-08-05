@@ -1,0 +1,28 @@
+{
+  "name": "serverless-performance",
+  "version": "0.0.46",
+  "description": "compare serverless technology",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "request": "^2.87.0",
+    "serverless": "git+https://github.com/mgarrettm/serverless.git",
+    "serverless-azure-functions": "git+https://github.com/serverless/serverless-azure-functions.git",
+    "serverless-google-cloudfunctions": "git+https://github.com/serverless/serverless-google-cloudfunctions.git",
+    "serverless-openwhisk": "^0.13.0",
+    "serverless-prototype-plugin": "0.0.20",
+    "url-regex": "^4.0.0",
+    "yamljs": "^0.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "Shobhit Mishra",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/mgarrettm/serverless-performance/issues"
+  },
+  "homepage": "https://github.com/mgarrettm/serverless-performance#readme"
+}

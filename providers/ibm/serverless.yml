@@ -1,0 +1,8 @@
+service: openwhisk-nodejs
+provider:
+    name: openwhisk
+    ignore_certs: true
+functions:
+    test: {handler: handler.test, memory: 512, events: [{http: 'POST test'}]}
+plugins:
+    - serverless-openwhisk
